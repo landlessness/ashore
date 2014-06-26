@@ -1,0 +1,35 @@
+/*
+Theme Name: Ashore Mobile Theme
+Author: AMBR Detroit
+Author URI: http://ambrdetroit.com
+Description: A custom WordPress mobile theme for ashore.me
+Version: 0.1
+Text Domain: ashore-mobile
+*/
+/*	Resets
+	------	*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,hgroup,menu,header,footer,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0}article,aside,canvas,figure,figure img,figcaption,hgroup,footer,header,nav,section,audio,video{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+.none { /* this class is used to hid the skip to content link at the beginning of the document for accessibility */
+	display: none;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
