@@ -249,6 +249,9 @@ body {
 			padding:15px;	
 		}
 		.page-content a, .post-content a{text-decoration:underline;}
+    .post-content ul, .post-content ol {
+      list-style-position: inside;
+    }
 		.post-single {
 			padding:0;
 		}

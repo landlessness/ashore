@@ -252,6 +252,9 @@ body {
 		.post-single {
 			padding:0;
 		}
+    .post-content ul, .post-content ol {
+      list-style-position: inside;
+    }
 		.post-header {
 			padding-bottom:20px;
 		}
