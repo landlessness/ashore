@@ -249,8 +249,11 @@ body {
 			padding:15px;	
 		}
 		.page-content a, .post-content a{text-decoration:underline;}
-		.post-single, .post-header {
-			padding:20px 0px;
+		.post-single {
+			padding:0;
+		}
+		.post-header {
+			padding-bottom:20px;
 		}
 		.post-single .category, .post-single h1, .post-single .post-meta, .post-header .category, .post-header h1, .post-header .post-meta {
 			margin-left:10px;
