@@ -30,7 +30,6 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
              </div>
 		</article>
 		
-	<?php comments_template( '', true ); ?>
 	<?php endwhile; /* end loop */ ?>
 
 <?php get_footer(); ?>
