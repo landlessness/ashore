@@ -549,7 +549,7 @@ table.tablepress {
 table.tablepress tr.even td{background:#e4f3f9; border:none;}
 table.tablepress tr.odd td{background: #f8fcfd; border:none;}
 table.tablepress thead th {background:#FFF; border:none;}
-table.tablepress td{padding:4px;}
+table.tablepress td{padding: 5px 30px 5px 1%;}
 table.tablepress td.column-1{text-align:center;}
 
 table.tablepress tr.row-1 th{background: #ffd84e; padding:6px 1%; font-family: ProximaNova-Bold; font-weight:normal; color: #000; font-size:22px;}
