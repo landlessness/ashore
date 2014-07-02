@@ -237,9 +237,6 @@ body {
 	#categoryNavTop li a:hover, #categoryNavTop li.current-menu-item a, #categoryNavTop li.current-post-parent a, #categoryNavTop .allPosts a:hover, 					    .allPosts a.active{color:#4882c1;}
 			#categoryNavTop li a:active{color:#666;}
 	
-		article {
-			overflow:hidden;
-		}
 		.page-content, .post-content {
 			padding:0;
 			font-family: MemphisLTStd-Medium;
