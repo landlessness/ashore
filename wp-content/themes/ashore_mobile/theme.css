@@ -543,7 +543,6 @@ button#load-more.done { display:none; }
 table.tablepress {
   font-family: ProximaNova-Regular;
   width:640px;
-  overflow:scroll;
   white-space: nowrap;
 }
 table.tablepress tr.even td{background:#e4f3f9; border:none;}
@@ -579,7 +578,6 @@ table.tablepress::-webkit-scrollbar-thumb {
 }
 @media only screen and (max-width: 1024px){
 		#categoryNavTop li a:hover, .allPosts a:hover{color:#666;}
-
 }
 
 @media only screen and (min-width: 700px) {
