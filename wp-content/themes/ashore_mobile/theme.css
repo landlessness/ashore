@@ -237,6 +237,9 @@ body {
 	#categoryNavTop li a:hover, #categoryNavTop li.current-menu-item a, #categoryNavTop li.current-post-parent a, #categoryNavTop .allPosts a:hover, 					    .allPosts a.active{color:#4882c1;}
 			#categoryNavTop li a:active{color:#666;}
 	
+		article {
+			overflow:hidden;
+		}
 		.page-content, .post-content {
 			padding:0;
 			font-family: MemphisLTStd-Medium;
@@ -540,7 +543,7 @@ button#load-more.done { display:none; }
 table.tablepress {
   font-family: ProximaNova-Regular;
   width:640px;
-  overflow:auto;
+  overflow:scroll;
   white-space: nowrap;
 }
 table.tablepress tr.even td{background:#e4f3f9; border:none;}
