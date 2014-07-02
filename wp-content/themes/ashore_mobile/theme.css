@@ -540,7 +540,12 @@ button#load-more.done { display:none; }
 	width:90%;
 	margin:0 auto;
 }
-table.tablepress{font-family: ProximaNova-Regular; width:640px; overflow:auto; }
+table.tablepress {
+  font-family: ProximaNova-Regular;
+  width:640px;
+  overflow:auto;
+  white-space: nowrap;
+}
 table.tablepress tr.even td{background:#e4f3f9; border:none;}
 table.tablepress tr.odd td{background: #f8fcfd; border:none;}
 table.tablepress thead th {background:#FFF; border:none;}
