@@ -238,7 +238,7 @@ body {
 			#categoryNavTop li a:active{color:#666;}
 	
 		article {
-			overflow:hidden;
+			overflow:auto;
 		}
 		.page-content, .post-content {
 			padding:0;
