@@ -638,7 +638,6 @@ table.tablepress::-webkit-scrollbar-thumb {
 	.featuredCaption{width:100%; margin:0 auto; max-width:640px;}
 }
 @media only screen and (max-width: 479px) {
-
 	.yarpp-related ul li{width:96%; margin: 0 2% 2% 0; padding:1%}
 	.allPosts{width:23%;}
 	#topContainer{width:77%;}
@@ -647,12 +646,7 @@ table.tablepress::-webkit-scrollbar-thumb {
 		margin-top:26px;
 		max-width:125px;
 	}
-	
-	
-	
-	
 }
-
-
+strong { font-weight: bold; }
 
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
