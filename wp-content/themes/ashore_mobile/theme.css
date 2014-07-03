@@ -262,16 +262,16 @@ body {
 		.post-single .category, .post-single h1, .post-single .post-meta, .post-header .category, .post-header h1, .post-header .post-meta {
 			margin-left:10px;
 		}
-			.page-content h1, .post-single h2, .post-header h1{
-				color:#4d4d4d;
-				font-size: 20px;
-				line-height:26px;
-				font-family: ProximaNova-Bold;
-				font-weight: normal;
-				font-style: normal;	
-				margin:10px 12px;
-			}
-			.post-single h2 a{color:#1a1a1a;}
+    .page-content h1, .post-single h2, .post-header h1{
+      color:#4d4d4d;
+      font-size: 20px;
+      line-height:26px;
+      font-family: ProximaNova-Bold;
+      font-weight: normal;
+      font-style: normal;	
+      margin:5px 12px;
+    }
+    .post-single h2 a{color:#1a1a1a;}
 		.category{font-size:18px; margin-bottom:4px; font-family: ProximaNova-Semibold; }
 		.category a{color:#4882c1;}
 		.category span{color:#4882c1; font-size:24px; position:relative; top:4px; margin-left:-3px;}
