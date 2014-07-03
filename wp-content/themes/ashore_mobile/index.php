@@ -8,7 +8,8 @@
         <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
         <div class="post-meta">
           <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } else { ?>
-            <div><span class="date"><?php the_time('F j, Y'); _e(' at '); the_time();?></span></div>
+            <div class="authorInfo">By <span class="author"><?php the_author(); ?></span></div>
+            <div><span class="date"><?php the_time('F j, Y'); _e(' at '); the_time();?></span> <span class="postLocation"><?php the_field('location'); ?></span></div>
             <?php } ?>
           </div>
         </div><!--.postMeta-->
