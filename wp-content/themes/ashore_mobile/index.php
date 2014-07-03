@@ -6,11 +6,12 @@
       <div class="category"><span class="icon-<?php foreach(get_the_category() as $category) {
         echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
         <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+        <?php if ( has_post_thumbnail() ) { ?>
         <div class="post-meta">
           <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } else { ?>
             <div class="authorInfo">By <span class="author"><?php the_author(); ?></span></div>
             <div><span class="date"><?php the_time('F j, Y'); _e(' at '); the_time();?></span> <span class="postLocation"><?php the_field('location'); ?></span></div>
-            <?php } ?>
+            <?php } } ?>
           </div>
         </div><!--.postMeta-->
       </div><!--.post-single-->
