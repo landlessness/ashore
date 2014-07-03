@@ -7,7 +7,10 @@
         echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
         <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
         <div class="post-meta">
-          <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } ?>
+          <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } else { ?>
+            <div><span class="date"><?php the_time('F j, Y'); _e(' at '); the_time();?></span></div>
+            <?php } ?>
+          </div>
         </div><!--.postMeta-->
       </div><!--.post-single-->
     </div>
