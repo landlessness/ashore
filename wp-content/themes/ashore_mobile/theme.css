@@ -275,7 +275,7 @@ body {
 		.category{font-size:18px; margin-bottom:4px; font-family: ProximaNova-Semibold; }
 		.category a{color:#4882c1;}
 		.category span{color:#4882c1; font-size:24px; position:relative; top:4px; margin-left:-3px;}
-		.post-meta{color:#8eaabd; font-size:14px; line-height:18px; margin-bottom: 5px;}
+		.post-meta{color:#8eaabd; font-size:14px; line-height:18px; margin-bottom: 10px;}
 		.post-meta .ad:before{
 			width: 0; 
 			height: 0; 
