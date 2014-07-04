@@ -637,7 +637,7 @@ table.tablepress::-webkit-scrollbar-thumb {
 @media only screen and (min-width: 480px) {
 	.featured-thumbnail, .placeHolder{width:100%; margin:0 auto; text-align:center;}
 	.placeHolder img{margin:16% auto;}
-	.featuredCaption{width:100%; margin:0 auto; max-width:640px;}
+	.featuredCaption{width:100%; margin:0 auto 15px auto; max-width:640px;}
 }
 @media only screen and (max-width: 479px) {
 	.yarpp-related ul li{width:96%; margin: 0 2% 2% 0; padding:1%}
