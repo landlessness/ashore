@@ -611,7 +611,7 @@ table.tablepress::-webkit-scrollbar-thumb {
 	.sd-content{padding-top:10px;}
 	
 	.page-content article > p, .post-content > p {
-		padding:15px 0;
+		padding: 0;
 	}
 	.post-single .category, .post-single h1, .post-single .post-meta, .post-header .category, .post-header h1, .post-header .post-meta {
 		margin-left:0px;
