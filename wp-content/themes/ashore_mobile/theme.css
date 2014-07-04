@@ -249,7 +249,7 @@ body {
 		.page-content article > p, .post-content > p {
 			padding:15px;	
 		}
-		.page-content a, .post-content a{text-decoration:underline;}
+		.page-content a, .post-content a, .copyright a {text-decoration:underline;}
 		.post-single {
 			padding:0;
 		}
@@ -467,6 +467,9 @@ body {
 		text-align:center;
 		font-size:12px;
 		line-height:16px;
+	}
+	#footer .creative-commons-text {
+		margin: 20px 0;
 	}
 /* -- Comments, Related Posts, Share -- */
 h3.comment-reply-title, .yarpp-related h3{
