@@ -584,7 +584,6 @@ table.tablepress::-webkit-scrollbar-thumb {
 }
 
 @media only screen and (min-width: 700px) {
-	#footer .social .block{margin-right:20px;}
 	#title{width:30%;}
 	.location{width:60%; margin-top:34px;}
 	.wp-caption{
