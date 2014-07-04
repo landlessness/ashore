@@ -9,7 +9,7 @@
         <div class="social">
         	<div class="footerHead">
                 <div class="container">
-                    <h2>Love the Water? Follow Ashore.</h2>
+                    <h2>Love the Water? Follow Ashore</h2>
                 </div>
             </div>
             <div class="container">
