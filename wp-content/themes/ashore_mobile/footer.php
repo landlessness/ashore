@@ -26,18 +26,6 @@
                 <div class="socialSeparator"><!-- --></div>
             </div>
         </div>
-        <div class="footerHead">
-                <div class="container">
-                    <h2>Have a Story Tip? Let Us Know.</h2>
-                </div>
-            </div>
-            <div class="container">
-            	<div class="block">
-                	<h3 class=""><a href="mailto:detroit@ashore.me">detroit@ashore.me</a></h3>
-              </div>
-                <div class="socialSeparator"><!-- --></div>
-            </div>
-        </div>
         <div class="categoryNav">
         	<?php wp_nav_menu( array('theme_location' => 'category-footer-menu' )); /* editable within the Wordpress backend */ ?>
         </div>
