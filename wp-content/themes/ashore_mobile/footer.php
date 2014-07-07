@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="social">
-        	<div class="footerHead">
+        <div class="footerHead">
                 <div class="container">
                     <h2>Love the Water? Follow Ashore.</h2>
                 </div>
@@ -23,6 +23,18 @@
                     <a class="twitter-timeline" href="https://twitter.com/AshoreDetroit" data-widget-id="468788298421264385">Tweets by @AshoreDetroit</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
+                <div class="socialSeparator"><!-- --></div>
+            </div>
+        </div>
+        <div class="footerHead">
+                <div class="container">
+                    <h2>Have a Story Tip? Let Us Know.</h2>
+                </div>
+            </div>
+            <div class="container">
+            	<div class="block">
+                	<h3 class=""><a href="mailto:detroit@ashore.me">detroit@ashore.me</a></h3>
+              </div>
                 <div class="socialSeparator"><!-- --></div>
             </div>
         </div>
