@@ -27,9 +27,9 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
 					<?php the_content(); ?>
           <div class="sharedaddy sd-sharing-enabled">
             <div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing">
-              <h3 class="sd-title">Have a Story Tip? Tell Us.</h3>
+              <h3 class="sd-title">Have a Story Tip? Idea? Feedback? Talk With Us.</h3>
               <div class="sd-content">
-                <a href="mailto:<?php strtolower(bloginfo('name')); ?>@ashore.me"><?php strtolower(bloginfo('name')); ?>@ashore.me</a>
+                <a href="mailto:<?php bloginfo('admin_email'); ?>"><?php bloginfo('admin_email'); ?></a>
               </div>
             </div>
           </div>
