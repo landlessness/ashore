@@ -7,7 +7,7 @@
 
             	<div class="category"><span class="icon-<?php foreach(get_the_category() as $category) {
 echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
-				<h1><?php the_title(); ?> hide_featured_image: <?php the_field('hide_featured_image'); ?></h1>
+				<h1><?php the_title(); ?></h1>
                 <div class="post-meta">
                 <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } else { ?>
                     <div class="authorInfo">By <span class="author"><?php the_author(); ?></span></div>
@@ -16,7 +16,8 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
                 </div>
             </div>   
             <?php $hide_featured_image = the_field('hide_featured_image') ?>
-				<?php if ( has_post_thumbnail() && $hide_featured_image != '1') { ?>
+            <div>$hide_featured_image: <?php $hide_featured_image ?></div>
+            <?php if ( has_post_thumbnail() && $hide_featured_image <> "1") { ?>
                     <div class="featured-thumbnail"><?php the_post_thumbnail(); ?></div> 
                     <div class="featuredCaption">                   
                             <q><?php the_field('featured_image_caption'); ?></q>
