@@ -27,7 +27,7 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
 					<?php the_content(); ?>
           <div class="sharedaddy sd-sharing-enabled">
             <div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing">
-              <h3 class="sd-title">Have a Story? Feedback? Talk With Us.</h3>
+              <h3 class="sd-title">Have a Story? Talk With Us.</h3>
               <div class="sd-content">
                 <a href="mailto:<?php bloginfo('admin_email'); ?>"><?php bloginfo('admin_email'); ?></a>
               </div>
