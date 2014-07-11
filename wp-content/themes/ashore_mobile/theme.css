@@ -660,7 +660,7 @@ strong { font-weight: bold; }
 	color:#FFF; 
 	font-family: ProximaNova-Bold; 
 	background: #ffd84e;
-	
+	padding: 10px;
 }
 
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
