@@ -15,7 +15,7 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
                     <?php } ?>
                 </div>
             </div>   
-				<?php if ( has_post_thumbnail() ) { ?>
+				<?php if ( has_post_thumbnail() && the_field('show_featured_image')) { ?>
                     <div class="featured-thumbnail"><?php the_post_thumbnail(); ?></div> 
                     <div class="featuredCaption">                   
                             <q><?php the_field('featured_image_caption'); ?></q>
