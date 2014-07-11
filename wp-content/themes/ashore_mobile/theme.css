@@ -656,4 +656,11 @@ strong { font-weight: bold; }
 	left: 50%;
 	margin: 0 0 0 -37.5%;
 }
+.noyellowbrick {
+	color:#FFF; 
+	font-family: ProximaNova-Bold; 
+	background: #ffd84e;
+	
+}
+
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
