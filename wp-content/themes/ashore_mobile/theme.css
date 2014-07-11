@@ -652,6 +652,9 @@ table.tablepress::-webkit-scrollbar-thumb {
 strong { font-weight: bold; }
 
 .yellowbrick {
-   float: left;	
+	width: 75%;
+	position: fixed;
+	left: 50%;
+	margin: 0 0 0 -37.5%;
 }
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
