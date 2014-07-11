@@ -15,13 +15,12 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
                     <?php } ?>
                 </div>
             </div>   
-            <?php $hide_featured_image = get_field('hide_featured_image') ?>
             <?php if ( has_post_thumbnail() && get_field('hide_featured_image') <> "1") { ?>
-                    <div class="featured-thumbnail"><?php the_post_thumbnail(); ?></div> 
-                    <div class="featuredCaption">                   
-                            <q><?php the_field('featured_image_caption'); ?></q>
-                    </div>
-			    <?php } ?>
+              <div class="featured-thumbnail"><?php the_post_thumbnail(); ?></div> 
+              <div class="featuredCaption">                   
+                <q><?php the_field('featured_image_caption'); ?></q>
+              </div>
+              <?php } ?>
               
              <div class="container">
 				<div class="post-content">
