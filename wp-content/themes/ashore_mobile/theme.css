@@ -651,4 +651,18 @@ table.tablepress::-webkit-scrollbar-thumb {
 }
 strong { font-weight: bold; }
 
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
