@@ -7,7 +7,7 @@
 
             	<div class="category"><span class="icon-<?php foreach(get_the_category() as $category) {
 echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
-				<h1><?php the_title(); ?></h1>
+				<h1><?php the_title(); ?> hide_featured_image: <?php the_field('hide_featured_image'); ?></h1>
                 <div class="post-meta">
                 <?php if(get_field('advertisement') == 'yes') { ?><div class="ad">ADVERTISEMENT</div><?php } else { ?>
                     <div class="authorInfo">By <span class="author"><?php the_author(); ?></span></div>
