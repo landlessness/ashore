@@ -16,8 +16,7 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
                 </div>
             </div>   
             <?php $hide_featured_image = get_field('hide_featured_image') ?>
-            <div>$hide_featured_image: <?php $hide_featured_image ?></div>
-            <?php if ( has_post_thumbnail() && $hide_featured_image <> "1") { ?>
+            <?php if ( has_post_thumbnail() && get_field('hide_featured_image') <> "1") { ?>
                     <div class="featured-thumbnail"><?php the_post_thumbnail(); ?></div> 
                     <div class="featuredCaption">                   
                             <q><?php the_field('featured_image_caption'); ?></q>
