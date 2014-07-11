@@ -25,6 +25,14 @@ echo $category->slug . ' ';} ?>"></span><?php the_category(' '); ?> </div>
              <div class="container">
 				<div class="post-content">
 					<?php the_content(); ?>
+          <div class="sharedaddy sd-sharing-enabled">
+            <div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing">
+              <h3 class="sd-title">Have a Story Tip? Tell Us.</h3>
+              <div class="sd-content">
+                <a href="mailto:<?php strtolower(bloginfo('name')); ?>@ashore.me"><?php strtolower(bloginfo('name')); ?>@ashore.me</a>
+              </div>
+            </div>
+          </div>
 				</div><!--.post-content-->
              </div>
 		</article>
