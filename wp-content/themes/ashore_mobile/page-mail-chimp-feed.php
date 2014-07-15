@@ -39,13 +39,13 @@ echo '<?xml version="1.0"?>';
       <dc:creator>
       <?php echo '<![CDATA['.get_the_author().']]>';  ?>
     </dc:creator>
-      <?php if(get_the_post_thumbnail()): ?>
-        <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
-      <?php endif; ?>    
-      <description><?php echo '<![CDATA['.yoast_rss_text_limit(apply_filters('the_content', $post->post_content), 250).']]>';  ?></description>
-      <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
-      <guid><?php echo get_permalink($post->ID); ?></guid>
-    </item>
-    <?php } ?>
-  </channel>
+    <?php if(get_the_post_thumbnail()): ?>
+      <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
+    <?php endif; ?>    
+    <description><?php echo '<![CDATA['.yoast_rss_text_limit(strip_shortcodes( apply_filters('the_content', $post->post_content)), 250).']]>';  ?></description>
+    <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
+    <guid><?php echo get_permalink($post->ID); ?></guid>
+  </item>
+  <?php } ?>
+</channel>
 </rss>
