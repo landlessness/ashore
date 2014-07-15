@@ -36,10 +36,9 @@ echo '<?xml version="1.0"?>';
   <item>
     <title><?php echo get_the_title($post->ID); ?></title>
     <link><?php echo get_permalink($post->ID); ?></link>
-    <?php if(get_the_post_thumbnail()): ?>
-        <media:content url="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" medium="image" />
-    <?php endif; ?>
-    <description><?php echo '<![CDATA['.yoast_rss_text_limit($post->post_content, 500).'<br/><br/>Keep on reading: <a href="'.get_permalink($post->ID).'">'.get_the_title($post->ID).'</a>'.']]>';  ?></description>
+<?php if(get_the_post_thumbnail()): ?>
+    <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
+<?php endif; ?>    <description><?php echo '<![CDATA['.yoast_rss_text_limit($post->post_content, 500).'<br/><br/>Keep on reading: <a href="'.get_permalink($post->ID).'">'.get_the_title($post->ID).'</a>'.']]>';  ?></description>
     <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
     <guid><?php echo get_permalink($post->ID); ?></guid>
   </item>
