@@ -36,11 +36,12 @@ echo '<?xml version="1.0"?>';
     <item>
       <title><?php echo get_the_title($post->ID); ?></title>
       <link><?php echo get_permalink($post->ID); ?></link>
+      <dc:creator><?php echo the_author(); ?></dc:creator>
       <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
       <description><?php echo '<![CDATA['.yoast_rss_text_limit(strip_shortcodes( apply_filters('the_content', $post->post_content)), 250).']]>';  ?></description>
-    <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
-    <guid><?php echo get_permalink($post->ID); ?></guid>
-  </item>
-  <?php } ?>
-</channel>
+      <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
+      <guid><?php echo get_permalink($post->ID); ?></guid>
+    </item>
+    <?php } ?>
+  </channel>
 </rss>
