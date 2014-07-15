@@ -36,7 +36,7 @@ echo '<?xml version="1.0"?>';
     <item>
       <title><?php echo get_the_title($post->ID); ?></title>
       <link><?php echo get_permalink($post->ID); ?></link>
-      <dc:creator><?php echo get_the_author($post->ID);  ?></dc:creator>
+      <dc:creator><?php echo the_author($post->ID);  ?></dc:creator>
       <?php if(get_the_post_thumbnail($post->ID)): ?>
       <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
     <?php endif; ?>    
