@@ -32,16 +32,20 @@ echo '<?xml version="1.0"?>';
   <pubDate><?php yoast_rss_date( strtotime($ps[$lastpost]->post_date_gmt) ); ?></pubDate>
   <lastBuildDate><?php yoast_rss_date( strtotime($ps[$lastpost]->post_date_gmt) ); ?></lastBuildDate>
   <managingEditor>detroit@ashore.me</managingEditor>
-<?php foreach ($posts as $post) { ?>
-  <item>
-    <title><?php echo get_the_title($post->ID); ?></title>
-    <link><?php echo get_permalink($post->ID); ?></link>
-<?php if(get_the_post_thumbnail()): ?>
-    <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
-<?php endif; ?>    <description><?php echo '<![CDATA['.yoast_rss_text_limit(apply_filters('the_content', $post->post_content), 250).']]>';  ?></description>
-    <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
-    <guid><?php echo get_permalink($post->ID); ?></guid>
-  </item>
-<?php } ?>
-</channel>
+  <?php foreach ($posts as $post) { ?>
+    <item>
+      <title><?php echo get_the_title($post->ID); ?></title>
+      <link><?php echo get_permalink($post->ID); ?></link>
+      <dc:creator>
+      <?php echo '<![CDATA['.get_the_author().']]>';  ?>
+    </dc:creator>
+      <?php if(get_the_post_thumbnail()): ?>
+        <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium'); echo $image[0]; ?>" medium="image" />
+      <?php endif; ?>    
+      <description><?php echo '<![CDATA['.yoast_rss_text_limit(apply_filters('the_content', $post->post_content), 250).']]>';  ?></description>
+      <pubDate><?php yoast_rss_date( strtotime($post->post_date_gmt) ); ?></pubDate>
+      <guid><?php echo get_permalink($post->ID); ?></guid>
+    </item>
+    <?php } ?>
+  </channel>
 </rss>
