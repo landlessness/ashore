@@ -501,7 +501,7 @@ ol.children li{border-bottom:none;}
 .yarpp-related ul li .category a{color:#4882c1; display:inline-block; font-size:16px; font-family: ProximaNova-Semibold;}
 .yarpp-related:after{display:block; clear:both; content:'';}
 
-div.sharedaddy{margin-top:20px; padding-bottom:20px;}
+div.sharedaddy{margin-top:10px; padding-bottom:10px;}
 div.sharedaddy h3.sd-title{
 	display:block;
 	width:100%; 
