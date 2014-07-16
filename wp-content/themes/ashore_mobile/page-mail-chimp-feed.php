@@ -22,7 +22,6 @@ $posts = query_posts('showposts='.$numposts);
 $lastpost = $numposts - 1;
 
 header("Content-Type: application/rss+xml; charset=UTF-8");
-echo '<?xml version="1.0"?>';
 ?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss">
 <channel>
   <title>Ashore Detroit Newsletter</title>
