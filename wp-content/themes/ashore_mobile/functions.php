@@ -205,6 +205,14 @@ $text = str_replace('value="Search"', 'value="Go"', $text);
 return $text;
 }
 
+add_action('init', 'customRSS');
+function customRSS(){
+  add_feed('mailchimp', 'customRSSFunc');
+}
+
+function customRSSFunc(){
+  get_template_part('rss', 'mailchimp');
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  WP Ajax Load More
