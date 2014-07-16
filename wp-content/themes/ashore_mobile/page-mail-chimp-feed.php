@@ -42,6 +42,6 @@ echo '<?xml version="1.0"?>';
       <pubDate><?php yoast_rss_date( strtotime(get_the_date())); ?></pubDate>
       <guid><?php the_permalink(); ?></guid>
     </item>
-    <?php } ?>
+  <?php endwhile; ?>
   </channel>
 </rss>
