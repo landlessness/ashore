@@ -39,7 +39,7 @@ echo '<?xml version="1.0"?>';
       <dc:creator><?php the_author(); ?><dc:creator>
       <media:content url="<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'medium'); echo $image[0]; ?>" medium="image" />
       <description><?php echo '<![CDATA['.yoast_rss_text_limit(strip_shortcodes(get_the_content()), 250).']]>';  ?></description>
-      <pubDate><?php yoast_rss_date( strtotime(get_the_date()); ?></pubDate>
+      <pubDate><?php yoast_rss_date( strtotime(get_the_date())); ?></pubDate>
       <guid><?php the_permalink(); ?></guid>
     </item>
     <?php } ?>
