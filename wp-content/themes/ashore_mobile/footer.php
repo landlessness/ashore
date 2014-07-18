@@ -14,19 +14,19 @@
     </div>
     <div class="container">
       <div class="block">
-        <h3 class="newsletter"><a href="/newsletter-signup">Our Newsletter</a></h3>
+        <h3 class="newsletter"><a href="/newsletter-signup">Newsletter</a></h3>
         <div class="newsletter-call-to-action">
           <?php echo do_shortcode('[mc4wp_form]'); ?>
         </div>
       </div>
       <div class="socialSeparator"><!-- --></div>
       <div class="block">
-        <h3 class="facebook"><a href="https://www.facebook.com/ashoredetroit">On Facebook</a></h3>
+        <h3 class="facebook"><a href="https://www.facebook.com/ashoredetroit">Facebook</a></h3>
         <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fashoredetroit%3Fref%3Dstream&amp;width=245px&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true&amp;appId=1415630728699050" scrolling="no" frameborder="0" style="border:none; overflow:hidden; background:#FFF; width:245px; height:258px;" allowTransparency="true"></iframe>
       </div>
       <div class="socialSeparator"><!-- --></div>
       <div class="block">
-        <h3 class="twitter"><a href="https://twitter.com/AshoreDetroit">On Twitter</a></h3>
+        <h3 class="twitter"><a href="https://twitter.com/AshoreDetroit">Twitter</a></h3>
         <a class="twitter-timeline" href="https://twitter.com/AshoreDetroit" data-widget-id="468788298421264385">Tweets by @AshoreDetroit</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
