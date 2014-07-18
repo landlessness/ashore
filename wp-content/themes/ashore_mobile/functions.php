@@ -214,6 +214,10 @@ function customRSSFunc(){
   get_template_part('rss', 'mailchimp');
 }
 
+if ( function_exists( 'add_image_size' ) ) { 
+	add_image_size( 'mailchimp', 600, 0, false ); //(cropped)
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  WP Ajax Load More
 /*-----------------------------------------------------------------------------------*/
