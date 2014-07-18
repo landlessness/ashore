@@ -246,6 +246,9 @@ body {
 			font-weight: normal;
 			font-style: normal;
 		}
+		.page-content article form {
+			padding:15px;	
+		}
 		.page-content article > p, .post-content > p {
 			padding:15px;	
 		}
