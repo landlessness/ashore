@@ -413,7 +413,14 @@ body {
 			background: url(images/email-icon.png) 0 0 no-repeat;
 		}
 		#footer .social .block div.newsletter-call-to-action{
-			background-color: #fff;
+			background: #FFF;
+			color: #333;
+			font-size:16px;
+			line-height:22px;
+			font-family: ProximaNova-Regular;
+			font-weight: normal;
+			font-style: normal;
+			padding: 10px;
 		}
 		#footer .social .block div.newsletter-call-to-action a{
 			color: #4882c1;
