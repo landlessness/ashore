@@ -15,7 +15,7 @@
     <div class="container">
       <div class="block">
         <h3 class="newsletter">Our Newsletter</h3>
-        <div><a href="/newsletter-signup">Sign Up</a></div>
+        <div class="newsletter-call-to-action"><a href="/newsletter-signup">Sign Up</a></div>
       </div>
       <div class="socialSeparator"><!-- --></div>
       <div class="block">

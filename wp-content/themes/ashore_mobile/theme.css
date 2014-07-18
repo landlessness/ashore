@@ -412,6 +412,9 @@ body {
 		#footer .social .block h3.newsletter{
 			background: url(images/email-icon.png) 0 0 no-repeat;
 		}
+		#footer .social .block div.newsletter-call-to-action{
+			background-color: #fff;
+		}
 		#footer .social .block h3.facebook{
 			background: url(images/fb-icon.png) 0 0 no-repeat;
 		}
