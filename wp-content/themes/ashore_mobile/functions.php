@@ -215,7 +215,7 @@ function customRSSFunc(){
 }
 
 if ( function_exists( 'add_image_size' ) ) { 
-	add_image_size( 'mailchimp', 600, 0, false ); //(cropped)
+	add_image_size( 'mailchimp', 564, 0, false ); //(cropped)
 }
 
 /*-----------------------------------------------------------------------------------*/
