@@ -3,7 +3,7 @@
 Template Name: Mail Chimp Feed
 */
 
-$numposts = 1;
+$numposts = 5;
 
 function yoast_rss_date( $timestamp = null ) {
   $timestamp = ($timestamp==null) ? time() : $timestamp;
