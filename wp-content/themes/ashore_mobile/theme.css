@@ -353,6 +353,9 @@ body {
 		.error404 h1{font-size:35px;}
 		
 	#footer{margin-top:30px;}	
+	#footer .social .container a{
+		color:#4882c1;
+	}
 	#footer .container, #footer .container a{
 		color:#FFF;
 	}
