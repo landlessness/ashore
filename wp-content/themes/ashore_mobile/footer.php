@@ -17,8 +17,6 @@
         <h3 class="newsletter"><a href="/newsletter-signup">Our Newsletter</a></h3>
         <div class="newsletter-call-to-action">
           <div>Receive weekly water sports and lifestyle updates.</div>
-          <a href="/newsletter-signup">Sign Up</a>
-          <!--should show the newsletter sign up form -->
           <?php echo do_shortcode('[mc4wp_form]'); ?>
         </div>
       </div>
