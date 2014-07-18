@@ -18,6 +18,7 @@
         <div class="newsletter-call-to-action">
           <div>Receive weekly water sports and lifestyle updates.</div>
           <a href="/newsletter-signup">Sign Up</a>
+          <?php echo do_shortcode('[mc4wp_form]'); ?>
         </div>
       </div>
       <div class="socialSeparator"><!-- --></div>
