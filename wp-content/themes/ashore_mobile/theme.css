@@ -429,6 +429,10 @@ body {
 			color: #4882c1;
 			text-decoration:none;
 		}
+		#footer .social .block div.newsletter-call-to-action .caveat{
+			font-size: 80%;
+			margin-top: 5px;
+		}
 		#footer .social .block h3.facebook{
 			background: url(images/fb-icon.png) 0 0 no-repeat;
 		}
