@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?fjmmuu');
-	src:url('fonts/icomoon.eot?#iefixfjmmuu') format('embedded-opentype'),
-		url('fonts/icomoon.woff?fjmmuu') format('woff'),
-		url('fonts/icomoon.ttf?fjmmuu') format('truetype'),
-		url('fonts/icomoon.svg?fjmmuu#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-y1sren');
+	src:url('fonts/icomoon.eot?#iefix-y1sren') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-y1sren') format('woff'),
+		url('fonts/icomoon.ttf?-y1sren') format('truetype'),
+		url('fonts/icomoon.svg?-y1sren#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -24,22 +24,22 @@
 }
 
 .icon-swimming:before {
-	content: "\e600";
+	content: "\6e";
 }
 .icon-history:before {
-	content: "\e601";
+	content: "\6f";
 }
 .icon-party:before {
-	content: "\e602";
+	content: "\70";
 }
 .icon-shipping:before {
-	content: "\e603";
+	content: "\71";
 }
 .icon-development:before {
-	content: "\e604";
+	content: "\72";
 }
-.icon-realestate:before {
-	content: "\e605";
+.icon-real-estate:before {
+	content: "\73";
 }
 .icon-logo:before {
 	content: "\61";
