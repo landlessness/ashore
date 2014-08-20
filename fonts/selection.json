@@ -228,7 +228,7 @@
 				],
 				"grid": 0,
 				"tags": [
-					"realestate"
+					"real-estate"
 				]
 			},
 			"attrs": [
@@ -250,7 +250,7 @@
 				"id": 14,
 				"prevSize": 64,
 				"code": 58885,
-				"name": "realestate",
+				"name": "real-estate",
 				"ligatures": ""
 			},
 			"setIdx": 0,
