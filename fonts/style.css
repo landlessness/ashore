@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'ashore-me-v2';
-	src:url('fonts/ashore-me-v2.eot?qbxpsc');
-	src:url('fonts/ashore-me-v2.eot?#iefixqbxpsc') format('embedded-opentype'),
-		url('fonts/ashore-me-v2.woff?qbxpsc') format('woff'),
-		url('fonts/ashore-me-v2.ttf?qbxpsc') format('truetype'),
-		url('fonts/ashore-me-v2.svg?qbxpsc#ashore-me-v2') format('svg');
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?fjmmuu');
+	src:url('fonts/icomoon.eot?#iefixfjmmuu') format('embedded-opentype'),
+		url('fonts/icomoon.woff?fjmmuu') format('woff'),
+		url('fonts/icomoon.ttf?fjmmuu') format('truetype'),
+		url('fonts/icomoon.svg?fjmmuu#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'ashore-me-v2';
+	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -23,6 +23,24 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-swimming:before {
+	content: "\e600";
+}
+.icon-history:before {
+	content: "\e601";
+}
+.icon-party:before {
+	content: "\e602";
+}
+.icon-shipping:before {
+	content: "\e603";
+}
+.icon-development:before {
+	content: "\e604";
+}
+.icon-realestate:before {
+	content: "\e605";
+}
 .icon-logo:before {
 	content: "\61";
 }

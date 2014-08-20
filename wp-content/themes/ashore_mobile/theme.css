@@ -50,6 +50,24 @@
 .icon-fishing:before, li.catFishing a:before {
 	content: "\68";
 }
+.icon-swimming:before, li.catSwimming a:before {
+	content: "\e600";
+}
+.icon-history:before, li.catHistory a:before {
+	content: "\e601";
+}
+.icon-party:before, li.catParty a:before {
+	content: "\e602";
+}
+.icon-shipping:before, li.catShipping a:before {
+	content: "\e603";
+}
+.icon-development:before, li.catDevelopment a:before {
+	content: "\e604";
+}
+.icon-realestate:before, li.catRealEstate a:before {
+	content: "\e605";
+}
 .icon-search:before {
 	content: "\69";
 }
