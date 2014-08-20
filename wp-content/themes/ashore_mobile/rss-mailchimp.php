@@ -22,7 +22,7 @@ $posts = query_posts('showposts='.$numposts);
 $lastpost = $numposts - 1;
 
 header("Content-Type: application/rss+xml; charset=UTF-8");
-?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Ashore Detroit Newsletter</title>
   <link>http://detroit.ashore.me/</link>
@@ -42,5 +42,6 @@ header("Content-Type: application/rss+xml; charset=UTF-8");
       <guid><?php the_permalink(); ?></guid>
     </item>
   <?php endwhile; ?>
+  <atom:link href="http://detroit.ashore.me/feed/mailchimp" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
