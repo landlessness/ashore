@@ -31,8 +31,9 @@ header("Content-Type: application/rss+xml; charset=UTF-8");
   <pubDate><?php yoast_rss_date( strtotime($ps[$lastpost]->post_date_gmt) ); ?></pubDate>
   <lastBuildDate><?php yoast_rss_date( strtotime($ps[$lastpost]->post_date_gmt) ); ?></lastBuildDate>
   <managingEditor><?php bloginfo('admin_email'); ?> (Ashore <?php bloginfo('name'); ?>)</managingEditor>
+  <atom:link href="http://detroit.ashore.me/feed/mailchimp" rel="self" type="application/rss+xml" />
   <?php while ( have_posts() ) : the_post(); ?>
-       <item>
+    <item>
       <title><?php the_title(); ?></title>
       <link><?php the_permalink(); ?></link>
       <dc:creator><?php the_author(); ?></dc:creator>
@@ -42,6 +43,5 @@ header("Content-Type: application/rss+xml; charset=UTF-8");
       <guid><?php the_permalink(); ?></guid>
     </item>
   <?php endwhile; ?>
-  <atom:link href="http://detroit.ashore.me/feed/mailchimp" rel="self" type="application/rss+xml" />
-  </channel>
+</channel>
 </rss>
