@@ -647,7 +647,7 @@ table.tablepress::-webkit-scrollbar-thumb {
 	.allPosts{width:70px;}
 	#topContainer{width:530px;}
 	#categoryNavTop{}
-	#categoryNavTop ul{margin-left:0;}
+  #categoryNavTop ul { margin-left: 0; height: 60px; width: 800px; overflow-x: auto; overflow-y: hidden; }
 	#categoryNavTop ul:before{display:none;}
 	.menu-category-footer-menu-container, .menu-footer-menu-container, .menu-location-menu-container{max-width:650px; margin:0 auto;}
 	#nav-primary ul{width:100%; padding:0;}
